@@ -1,0 +1,4 @@
+.env
+__pycache__/
+trends_report.html
+.vscode/
