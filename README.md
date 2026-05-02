@@ -14,8 +14,6 @@ les résume en **français** grâce à l'IA (Google Gemini), et génère un rapp
 | Tunis Afrique Presse | RSS | FR |
 | Tunisie Numérique | RSS | FR |
 | Mosaïque FM | RSS | FR |
-| Diwane FM | RSS | AR |
-| Shems FM | RSS | FR |
 | Jawhara FM | RSS | FR |
 | Business News TN | RSS | FR |
 
@@ -57,7 +55,7 @@ Ouvrez `.env` et renseignez vos deux clés :
 
 | Clé | Où l'obtenir | Gratuit ? |
 |---|---|---|
-| `GEMINI_API_KEY` | [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) | ✅ Oui |
+| `GROK_API_KEY` | [console.groq.com](https://console.groq.com/keys) | ✅ Oui |
 | `YOUTUBE_API_KEY` | [console.cloud.google.com](https://console.cloud.google.com) → YouTube Data API v3 | ✅ Oui |
 
 ---
@@ -79,5 +77,4 @@ Le script va :
 ## 📝 Notes
 
 - Le rapport est généré **à la demande** (pas de tâche automatique).
-- La limite gratuite de Gemini est **1 million de tokens/jour** — largement suffisant.
 - Les flux RSS sont publics et ne nécessitent pas de clé API.
