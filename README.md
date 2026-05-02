@@ -28,7 +28,7 @@ news_agent/
 ├── requirements.txt   ← Dépendances Python
 ├── config.py          ← Configuration centralisée (sources, modèles)
 ├── fetcher.py         ← Récupère les articles depuis toutes les sources
-├── summarizer.py      ← Résume chaque article avec Gemini
+├── summarizer.py      ← Résume chaque article avec Groq
 ├── reporter.py        ← Génère le rapport HTML
 └── main.py            ← Point d'entrée (lancement manuel)
 ```
@@ -68,7 +68,7 @@ python main.py
 
 Le script va :
 1. Récupérer les tendances depuis toutes les sources
-2. Résumer chaque article en français avec Gemini
+2. Résumer chaque article en français avec Groq
 3. Générer `trends_report.html` dans le dossier courant
 4. Ouvrir automatiquement le rapport dans votre navigateur
 
